@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog de Videojuegos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Blog de Videojuegos</h1>
+
+        <img src="logo.png" alt="Logo del colegio" width="150">
+
+        <p>Bienvenido a mi blog, donde hablo de mis videojuegos favoritos,
+        recomendaciones y novedades del mundo gaming.</p>
+    </header>
+
+    <nav>
+        <h2>Menú de navegación</h2>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#favoritos">Videojuegos favoritos</a></li>
+            <li><a href="#definiciones">Definiciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Este blog está dedicado al mundo de los videojuegos.
+            Aquí encontrarás información y recomendaciones.</p>
+
+            <p>Visita también
+                <a href="https://www.steam.com" target="_blank">
+                    Steam
+                </a>
+                para descubrir videojuegos.
+            </p>
+        </section>
+
+        <section id="favoritos">
+            <h2>Mis videojuegos favoritos</h2>
+
+            <h3>Lista ordenada: Mi top 3</h3>
+            <ol>
+                <li>Minecraft</li>
+                <li>GTA V</li>
+                <li>Fortnite</li>
+            </ol>
+
+            <h3>Lista desordenada: Géneros favoritos</h3>
+            <ul>
+                <li>Aventura</li>
+                <li>Acción</li>
+                <li>Supervivencia</li>
+                <li>Deportes</li>
+            </ul>
+        </section>
+
+        <section id="definiciones">
+            <h2>Definiciones gaming</h2>
+
+            <dl>
+                <dt><strong>FPS</strong></dt>
+                <dd>Videojuegos de disparos en primera persona.</dd>
+
+                <dt><strong>Multijugador</strong></dt>
+                <dd>Modo de juego en el que participan varias personas.</dd>
+
+                <dt><strong>Open World</strong></dt>
+                <dd>Juego que permite explorar libremente un mundo.</dd>
+            </dl>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de contacto</h2>
+
+            <form action="#" method="post">
+                <label for="nombre">Nombre y apellidos:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+                <br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mi Blog de Videojuegos - 2026</p>
+    </footer>
+
+</body>
+</html>
